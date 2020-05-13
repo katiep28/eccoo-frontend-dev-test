@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eccoo test</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+
+  </header>
+  <nav>
+    <ol>
+      {% for name, link in links %}
+        <li><a href="{{ link }}">{{ name }}</a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+  <main role="main">
+  {% block content %}
+    {{ message }}
+  {% endblock %}
+  </main>
+</body>
+</html>

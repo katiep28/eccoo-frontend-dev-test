@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, input, button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;  
+}
+
+body > * {
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ol {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ol > li {
+  padding-right: 1em;
+}
