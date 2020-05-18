@@ -14,10 +14,22 @@
 {% endmacro %}
 
 {% block content %}
-  <h1>Katies here</h1>
+  <br>
   <form>
-    {{ formfield("name", "Namebbbb:") }}
-    <button>Click me</button>
+    <div class="whitetext">
+      {{ formfield("name", "Name:") }}
+    </div>
+    <br>
+    <div class="whitetext">
+        {{ formfield("email", "Email:") }}
+    </div>
+    <br>
+    <input type="radio" id="me" name="support" value="me">
+    <label class="radio" for="me">The support is for me</label><br>
+    <input type="radio" id="other" name="support" value="other">
+    <label class="radio" for="other">The support is for someone else</label><br>
+    <br>
+    <button>Sign Up</button>
   </form>
 
   <code><pre>{{ query | dump(2) }}</pre></code>

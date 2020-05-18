@@ -14,6 +14,13 @@ body > * {
   margin-right: auto;
 }
 
+/* form {
+  border: thick;
+  font-size: 20pt;
+  color: white;
+  background-color: blue;
+} */
+
 nav ol {
   list-style: none;
   padding: 0;
@@ -22,5 +29,29 @@ nav ol {
 
 nav ol > li {
   padding-right: 1em;
-  font-size: 30pt;
+  font-size: 20pt;
+
+}
+
+.whitetext {
+  /* border: thick; */
+  font-size: 20pt;
+  color: white;
+  background-color: teal;
+}
+.radio {
+  border: thick;
+  font-size: 20pt;
+  color: black;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
 }

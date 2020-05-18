@@ -9,12 +9,11 @@
 <body>
   <header>
   
-    <!-- <img src="/public/journey.jpg">Click this image</img> -->
+    <img src="/assets/journey.jpg">
     <h1>PUT PICTURE HERE</h1>
   </header>
-  <nav border border-dark border-thick>
-    <!-- <div className="col-12 col-lg-6 paddingabove border border-dark border-thick"></div> -->
-    <ol>
+  <nav>
+     <ol>
       {% for name, link in links %}
         <li><a href="{{ link }}">{{ name }}</a></li>
       {% endfor %}
