@@ -15,6 +15,7 @@
     "@nestjs/common": "^7.0.11",
     "@nestjs/core": "^7.0.11",
     "@nestjs/platform-express": "^7.0.11",
+    "nestjs": "0.0.1",
     "nunjucks": "^3.2.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",

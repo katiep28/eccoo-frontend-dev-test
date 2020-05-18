@@ -1,5 +1,12 @@
 {% extends 'page.html' %}
 
+<!-- {% block title %}
+  <header>
+    <a href="/public/journey.jpg"></a>
+    <h1>KATIES HERE</h1>
+  </header>
+{% endblock %} -->
+
 {% macro formfield(id, label, type="text") %}
   <fieldset>
     <label class="coloured" for="{{ id }}">{{ label }}</label><input id="{{ id }}" name="{{ id }}" type="{{ type }}" />
@@ -7,8 +14,9 @@
 {% endmacro %}
 
 {% block content %}
+  <h1>Katies here</h1>
   <form>
-    {{ formfield("name", "Name:") }}
+    {{ formfield("name", "Namebbbb:") }}
     <button>Click me</button>
   </form>
 
