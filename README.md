@@ -13,7 +13,7 @@ We've created a simple UI app to help us understand the way you think and approa
 3. Make any extra changes you feel will enhance the site or codebase.  
  _Upper limit of 1 hour._
 
-Please submit your responses via an updated git repository.
+Please submit your responses via a cloned git repository. You can do this in GitHub by [importing a new repository](https://github.com/new/import) and supplying this URL https://gitlab.com/eccoo-platform/hiring/eccoo-frontend-dev-test.git.
 
 We've given an outline of the app technical design below.
 
