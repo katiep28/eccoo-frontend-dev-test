@@ -14,13 +14,6 @@ body > * {
   margin-right: auto;
 }
 
-/* form {
-  border: thick;
-  font-size: 20pt;
-  color: white;
-  background-color: blue;
-} */
-
 nav ol {
   list-style: none;
   padding: 0;
@@ -29,8 +22,7 @@ nav ol {
 
 nav ol > li {
   padding-right: 1em;
-  font-size: 20pt;
-
+  font-size: 23pt;
 }
 
 .whitetext {
@@ -38,20 +30,42 @@ nav ol > li {
   font-size: 20pt;
   color: white;
   background-color: teal;
+  text-align: centre;
+  /* width:10px; */
+  /*height:50px; */
 }
-.radio {
-  border: thick;
+.whitetext input{
+  /* border: thick; */
   font-size: 20pt;
+  width: 441px;
   color: black;
+  place-
+}
+
+.radio {
+  font-size: 10pt;
+  border: 0px;
+  width: 100%;
+  height: 2em;
+  color: black;
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  display: inline-block;
+  padding: 50px 260px;
 }
 
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: green;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 14px 80px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
+}
+img {
+  width: 700px;
+  height: 400px;
 }

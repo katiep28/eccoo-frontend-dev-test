@@ -1,35 +1,38 @@
 {% extends 'page.html' %}
-
-<!-- {% block title %}
-  <header>
-    <a href="/public/journey.jpg"></a>
-    <h1>KATIES HERE</h1>
-  </header>
-{% endblock %} -->
-
-{% macro formfield(id, label, type="text") %}
+{% macro formfield(id, label, placeholder, type="text") %}
   <fieldset>
-    <label class="coloured" for="{{ id }}">{{ label }}</label><input id="{{ id }}" name="{{ id }}" type="{{ type }}" />
+    <label class="coloured" for="{{ id }}">{{ label }}</label>
+    <input id="{{ id }}" name="{{ id }}" placeholder="{{placeholder}}" type="{{ type }}" />
   </fieldset>
 {% endmacro %}
 
 {% block content %}
   <br>
+  <br>
   <form>
     <div class="whitetext">
-      {{ formfield("name", "Name:") }}
+      {{ formfield("name","Name "," What should we call you?") }}
     </div>
     <br>
     <div class="whitetext">
-        {{ formfield("email", "Email:") }}
+        {{ formfield("email","Email "," eg me@example.com") }}
+    </div>
+  </div>
+    <br>
+    <div class="radio">
+      <input  type="radio" id="me" name="support" value="me">
+      <label  for="me">The support is for me</label>
+      <br>
+      <br>
+      <input  type="radio" id="other" name="support" value="other">
+      <label  for="other">The support is for someone else</label>
+      <br>  
     </div>
     <br>
-    <input type="radio" id="me" name="support" value="me">
-    <label class="radio" for="me">The support is for me</label><br>
-    <input type="radio" id="other" name="support" value="other">
-    <label class="radio" for="other">The support is for someone else</label><br>
     <br>
-    <button>Sign Up</button>
+    <br>
+    <button>Sign up</button>
+    <br>
   </form>
 
   <code><pre>{{ query | dump(2) }}</pre></code>
