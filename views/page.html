@@ -18,17 +18,16 @@
    </div>
   </header>
   <nav>
-     <br>
-     <br>
      <ol>
       {% for name, link in links %}
         <li><a href="{{ link }}"  accesskey="{{name.substring(0,1).toLowerCase()}}">{{ name }}</a></li>
       {% endfor %}
     </ol>
+    <br>
+    <br>
   </nav>
   <main role="main">
   {% block content %}
-    <br>
     <h1>{{ message }}</h1>
   {% endblock %}
   </main>
