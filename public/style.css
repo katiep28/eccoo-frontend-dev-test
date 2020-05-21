@@ -3,13 +3,12 @@
   padding: 0;
 }
 
-body, input, button {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 12pt;  
+body, input, button, nav {
+  font-family: Georgia, serif;
+    font-size: 12pt;  
 }
 
 body > * {
-  /* max-width: 520px; */
   max-width:700px;
   margin-left: auto;
   margin-right: auto;
@@ -19,10 +18,12 @@ nav ol {
   list-style: none;
   padding: 0;
   display: flex;
+  color: black;
 }
 
 nav ol > li {
   padding-right: 1em;
+  color: black;
   font-size: 23pt;
 }
 /* Formatting for Input boxes */
@@ -30,7 +31,7 @@ nav ol > li {
   font-size: 20pt;
   color: white;
   text-align: center;
-  background-color: teal;
+  background-color: rgb(16,127,150);
   left: 100px;
    height: 50px;
 } 
@@ -54,7 +55,7 @@ nav ol > li {
 }
 
 button {
-  background-color: teal;
+  background-color: rgb(16,134,115);
   border: none;
   color: white;
   padding: 14px 80px;
