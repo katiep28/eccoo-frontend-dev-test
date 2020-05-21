@@ -26,17 +26,24 @@ nav ol > li {
   font-size: 23pt;
 }
 /* Formatting for Input boxes */
-.whitetext {
+ .whitetext {
   font-size: 20pt;
   color: white;
+  text-align: center;
   background-color: teal;
-  text-align: centre;
-}
-.whitetext input{
+  left: 100px;
+   height: 50px;
+} 
+ .whitetext input{
   font-size: 20pt;
-  width: 621px;
+  width: 512px;
+  height: 43px;
+  padding-left: 10px;
+  position: relative;
+  left: 50px;
   color: black;
-}
+}  
+
 
 .radio {
   font-size: 10pt;
@@ -52,7 +59,7 @@ nav ol > li {
 }
 
 button {
-  background-color: green;
+  background-color: teal;
   border: none;
   color: white;
   padding: 14px 80px;
