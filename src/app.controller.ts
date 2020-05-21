@@ -23,7 +23,7 @@ export class AppController {
   getHomepage() {
     return {
       links,
-      message: 'Welcome to the Equal Care Co-op test app',
+      message: 'What can we do for you today?',
     };
   }
   /**

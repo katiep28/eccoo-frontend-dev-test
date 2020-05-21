@@ -10,6 +10,7 @@ body, input, button {
 
 body > * {
   max-width: 520px;
+  /* max-width:700px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,7 +25,7 @@ nav ol > li {
   padding-right: 1em;
   font-size: 23pt;
 }
-
+/* Formatting for Input boxes */
 .whitetext {
   font-size: 20pt;
   color: white;
@@ -60,10 +61,6 @@ button {
   display: inline-block;
   font-size: 25px;
 }
-img {
-  width: 700px;
-  height: 400px;
-}
 
 /* Table formatting */
 table {
@@ -80,4 +77,21 @@ th{
   font-size: 20pt;
   color: white;
   text-align: centre;
+}
+/* Positioning the Text Over the Image on the Home Page */
+img {
+  width: 700px;
+  height: 400px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+  font-weight: bold;
+}
+.position {
+  position: absolute;
+  top: 20%;
+  /* left:25% */
 }
