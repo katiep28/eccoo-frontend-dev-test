@@ -13,6 +13,7 @@ export class AppService {
       },
       {
         name: 'Person 2',
+        role: 'Carer',
       }
     ]);
   }

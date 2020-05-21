@@ -26,20 +26,15 @@ nav ol > li {
 }
 
 .whitetext {
-  /* border: thick; */
   font-size: 20pt;
   color: white;
   background-color: teal;
   text-align: centre;
-  /* width:10px; */
-  /*height:50px; */
 }
 .whitetext input{
-  /* border: thick; */
   font-size: 20pt;
   width: 441px;
   color: black;
-  place-
 }
 
 .radio {
@@ -68,4 +63,21 @@ button {
 img {
   width: 700px;
   height: 400px;
+}
+
+/* Table formatting */
+table {
+  table-layout: auto;
+  width: 500px;
+}
+table, td {
+  border: 1px solid black;
+  font-size:25px;
+}
+th{
+  font-size: 20pt;
+  background-color: teal;
+  font-size: 20pt;
+  color: white;
+  text-align: centre;
 }
