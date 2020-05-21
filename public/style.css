@@ -5,7 +5,7 @@
 
 body, input, button, nav {
   font-family: Georgia, serif;
-    font-size: 12pt;  
+  font-size: 12pt;  
 }
 
 body > * {
@@ -18,12 +18,12 @@ nav ol {
   list-style: none;
   padding: 0;
   display: flex;
-  color: black;
+  /* color: black; */
 }
 
 nav ol > li {
   padding-right: 1em;
-  color: black;
+  /* color: black; */
   font-size: 23pt;
 }
 /* Formatting for Input boxes */
@@ -37,7 +37,7 @@ nav ol > li {
 } 
  .whitetext input{
   font-size: 20pt;
-  width: 512px;
+  width: 505px;
   height: 43px;
   padding-left: 10px;
   position: relative;
@@ -110,3 +110,30 @@ td {
   bottom: 8px;
   right:8px
 }
+
+/* Link formatting */
+a:link {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: underline;
+} 
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
