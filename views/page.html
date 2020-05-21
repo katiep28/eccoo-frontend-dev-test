@@ -8,18 +8,21 @@
 </head>
 <body>
   <header class="container">
-    <img src="/assets/journey.jpg" alt="Peoples life journeyk">  
-    <div class="position">
+    <img class="journey" src="/assets/journey.jpg" alt="Peoples life journey">  
+    <div class="positionText">
        <p>Equal Care Co-op</p>
        <p>Test App</p>
     </div>
+    <div class="positionLogo">
+    <img class="logo" src="/assets/eccoo.jpeg" alt="Equal care logo">  
+   </div>
   </header>
   <nav>
      <br>
      <br>
      <ol>
       {% for name, link in links %}
-        <li><a href="{{ link }}">{{ name }}</a></li>
+        <li><a href="{{ link }}"  accesskey="{{name.substring(0,1).toLowerCase()}}">{{ name }}</a></li>
       {% endfor %}
     </ol>
   </nav>
